@@ -1,0 +1,15 @@
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+[user]
+	name = Leandro Balmaceda
+	email = leandro@shiphero.com
+[hub]
+	protocol = https
+[core]
+    pager = delta --syntax-theme='oceanic-next'
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+  features = line-numbers
